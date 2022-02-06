@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "5b9f4f6c9f5c3f4a6d8b4b9f",
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 24,
+    "nationality": "English"
+  },
+  {
+    "_id": "58c03af28060197ca0b52d53",
+    "id": 2,
+    "firstName": "Jan",
+    "lastName": "Dewaele",
+    "age": 27,
+    "nationality": "Belgian"
+  },
+  {
+    "_id": "58c08780bbb1a51e0d43a050",
+    "id": 3,
+    "firstName": "Jonathan",
+    "lastName": "Van Driessen",
+    "age": 33,
+    "nationality": "Belgian"
+  },
+  {
+    "_id": "58c08796bbb1a51e0d43a051",
+    "id": 4,
+    "firstName": "Anthony",
+    "lastName": "Lamot",
+    "age": 30,
+    "nationality": "Belgian"
+  },
+  {
+    "_id": "58c087b9bbb1a51e0d43a053",
+    "id": 5,
+    "firstName": "Tim",
+    "lastName": "Ferris",
+    "age": 36,
+    "nationality": "American"
+  },
+  {
+    "_id": "58c087f4bbb1a51e0d43a055",
+    "id": 6,
+    "firstName": "Melinda",
+    "lastName": "Gates",
+    "age": 63,
+    "nationality": "American"
+  },
+  {
+    "_id": "58c08841bbb1a51e0d43a059",
+    "id": 7,
+    "firstName": "Jan",
+    "lastName": "De Hollander",
+    "age": 13,
+    "nationality": "Dutch"
+  },
+  {
+    "_id": "58c08a07d1d97c276fd56cd9",
+    "id": 8,
+    "firstName": "Maarten",
+    "lastName": "De Vriendt",
+    "age": 47,
+    "nationality": "Dutch"
+  },
+  {
+    "_id": "58c08a58d1d97c276fd56cdd",
+    "id": 9,
+    "firstName": "Furkan",
+    "lastName": "Kursun",
+    "age": 23,
+    "nationality": "Turkish"
+  }
+]
