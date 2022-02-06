@@ -1,0 +1,56 @@
+.form {
+  width: 30vw;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border: 2px solid black;
+}
+.label {
+  display: block;
+  font-size: larger;
+  color: black;
+  padding: 5px;
+}
+
+.input {
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+}
+
+.btn {
+  color: white;
+  background-color: #000066;
+  border-radius: 2px;
+  font-size: 24px;
+  display: block;
+  padding: 5px 8px;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 60px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}

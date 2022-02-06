@@ -1,7 +1,12 @@
 import React from "react";
+import AddForm from "../components/Students/Add";
 
 const NewStudent = () => {
-  return <div>New Student</div>;
+  return (
+    <>
+      <AddForm />
+    </>
+  );
 };
 
 export default NewStudent;

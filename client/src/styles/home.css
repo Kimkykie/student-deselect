@@ -1,0 +1,20 @@
+.student-container {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #6495ed;
+}
+
+.student-info {
+  width: 30%;
+  background: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.student-select {
+  margin: 0 auto;
+  width: 30%;
+  display: block;
+  padding: 5px;
+}
