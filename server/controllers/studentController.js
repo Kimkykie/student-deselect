@@ -26,3 +26,13 @@ exports.getStudents = async (req, res) => {
     res.status(500).send(err);
   }
 };
+
+exports.addStudent = async (req, res) => {
+  try {
+    const newStudent = req.body;
+    const student = await Student.create(newStudent);
+    res.status(200).send(student);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+};
