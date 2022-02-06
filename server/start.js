@@ -7,6 +7,8 @@ mongoose.connect(process.env.DATABASE, {
   useUnifiedTopology: true,
 });
 
+// Model imports
+require("./models/Student");
 // Start our app!
 const app = require("./app");
 app.set("port", process.env.PORT || 5555);
