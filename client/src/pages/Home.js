@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import Students from "../components/Students";
 import "../styles/home.css";
 
@@ -6,7 +6,6 @@ const Home = () => {
   const [students, setStudents] = useState(null);
   const [nationalities, setNationalities] = useState(null);
   const [nationalityFilter, setNationalityFilter] = useState(null);
-  const selectInput = useRef(null);
 
   const filterStudents = () => {
     const filteredStudents = students.filter(
@@ -37,7 +36,6 @@ const Home = () => {
         <>
           <select
             className="student-select"
-            ref={selectInput}
             onChange={handleFilterInput}
             defaultValue={nationalities[0]}
             placeholder="Select a region"
